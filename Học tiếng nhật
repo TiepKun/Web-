@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Học Tiếng Nhật</title>
+</head>
+<body>
+    <header>
+        <h1>Học Tiếng Nhật</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#lessons">Bài Học</a></li>
+            <li><a href="#quiz">Kiểm Tra</a></li>
+            <li><a href="#resources">Tài Nguyên</a></li>
+            <li><a href="#chatbot">Chatbot</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Chào mừng đến với trang web học Tiếng Nhật!</h2>
+        <p>Bạn có thể tìm hiểu và cải thiện khả năng tiếng Nhật của mình ở đây.</p>
+    </section>
+
+    <section id="lessons">
+        <h2>Bài Học</h2>
+        <p>Explore các bài học để nâng cao kỹ năng ngôn ngữ của bạn.</p>
+        <!-- Thêm nội dung bài học ở đây -->
+    </section>
+
+    <section id="quiz">
+        <h2>Kiểm Tra</h2>
+        <p>Thử thách kiến thức của bạn với các bài kiểm tra ngắn.</p>
+        <!-- Thêm câu hỏi và đáp án của bài kiểm tra ở đây -->
+    </section>
+
+    <section id="resources">
+        <h2>Tài Nguyên</h2>
+        <p>Khám phá các tài nguyên học Tiếng Nhật phong phú.</p>
+        <!-- Thêm liên kết đến tài nguyên học Tiếng Nhật ở đây -->
+    </section>
+
+    <section id="chatbot">
+        <h2>Chatbot</h2>
+        <div id="chat-container">
+            <div id="chat"></div>
+            <input type="text" id="user-input" placeholder="Nhập câu hỏi...">
+            <button onclick="sendMessage()">Gửi</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Học Tiếng Nhật</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
